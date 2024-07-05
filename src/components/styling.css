@@ -1,0 +1,296 @@
+.header-section img{
+    width: 70px;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+} 
+.header-section{
+    justify-content: space-between;
+    align-items: center;
+    flex: end;
+    margin-right: 30px;
+  
+  
+ 
+}
+.all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.all img{
+    margin-left: 35px;
+}
+button{
+    padding: 10px 20px ;
+    font-size: 16px;
+    color: blue; 
+     margin: 5px;
+}
+.btns{
+    margin-left: 100px;
+    display: flex;
+
+}
+
+/* Heading style end */
+
+/* Landing page styling is start */
+.heading{
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    /* padding: 20px;   */
+}
+.para{
+    align-items: center;
+    color: gray;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    /* padding: 10px; */
+}
+.new-btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px
+    
+}
+video{
+    text-align:center;
+    justify-content: center;
+    margin-left: 15%;  
+    padding: 15px;
+}
+
+/* flow chart */
+.flow-head{
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    justify-content: center;
+    padding: 20px;  
+}
+.flow-para{
+    align-items: center;
+    color: gray;
+    text-align: center;
+    font-size: 25px;
+    justify-content: center;
+    /* padding: 10px; */
+
+}
+/* animation styling */
+.heading,
+.para,
+.new-btn,
+video,.all-cards , .card
+ {
+  opacity: 0;  /* Initially hidden */
+  animation: fadeIn 1.5s ease-in-out forwards;  /* Animation properties */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+/* This is button animation */
+.heart-icon{
+    color: blue;
+    font-size: 50px;
+    margin-left: 40px;
+    
+}
+.card{
+    color: #fff;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* margin-left:50px; */
+}
+.all-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;  
+    padding: 20px;
+    margin: 20px;
+ 
+}
+hr{
+    width: 60%;
+    color: gray;
+    margin-top:45px;
+}
+.new-butn button{
+    color: #248f24;
+  padding: 5px;
+    margin-top: 50px;
+    margin-left: 40%;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    background: rgb(173, 243, 173);
+
+
+}
+.pro-head{
+    color:#fff;
+    margin: 10px 45px 60px 29%;
+    font-size: 35px;
+}
+.pro-para{
+    text-align: center;
+    color:#fff;
+    font-size: 25px;
+    align-items: center;
+}
+span{
+    color: blue;
+    font-style: italic;
+    font-size: 18px;
+
+}
+.main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.screenshot img{
+        padding: 10px;
+        width: 500px;
+        height: 350px;  
+}
+.d-flex{
+    display: flex;
+}
+.all-check{
+    display: flex;
+   margin-right: 10px;
+}
+.check{
+    padding: 20px;
+    color: green;
+    margin-top: 10px;
+}
+.check p{
+    margin: 20px;
+    padding: 20px;
+
+}
+.ppp{
+    margin-top: 25px;
+    padding: 5px;
+}
+.one-check{
+    margin-bottom: 20px;
+}
+/* this is testominolas style */
+.card-container{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.world-main{
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 55px;
+}
+.text{
+    text-align: center;
+}
+.card{
+    background-color: black;
+    /* justify-content:space-around;
+    align-items: flex-start; */
+    margin-left: 10px;
+    
+}
+.card  img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-right: 50%;
+    padding: 10px;
+
+}
+/* This is container styling */
+.container{
+    background-color: rgb(32, 29, 194);
+    width: 85%;
+    /* height: 85%; */
+    padding: 30px;
+    margin-left: 80px;
+    margin-top: 75px;
+   
+    
+}
+.both-side{
+    display: flex;
+    justify-content: space-around;
+
+}
+.left{
+    margin-top: 50px;
+}
+.left input{
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    background:rgb(51, 51, 197);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+    color: white;
+
+}
+.left button{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #6d32f7;
+    background-color: #f0f5fa;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+} 
+
+/* Left container  */
+.main-container{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+    text-align: center;
+    text-decoration: none;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.icons i{
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: rgb(11, 11, 148);
+    font-size: 25px; 
+    cursor: pointer;
+    background: #000;
+    margin-bottom: 25px;
+}
+.icons i:hover{
+    background:blue;
+    color: #fff;
+}
